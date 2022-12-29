@@ -3,7 +3,6 @@ const decode2 = document.getElementById('decoder2')
 const decode3 = document.getElementById('decoder3')
 const decodeButton = document.querySelector('.button')
 const input = document.querySelector('.text1')
-let signs = ['.','!',';',',',':','?']
 
 decodeButton.onclick = function encode() {
 let text = (input.value).toLowerCase()
