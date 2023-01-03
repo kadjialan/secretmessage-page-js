@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,16 @@
     <link rel="stylesheet" href="asserts/styles/styles.css">
     <title>Document</title>
 </head>
+
 <body>
-
-    <h2>Secret Message</h2>
-    <input type="text" placeholder="enter your message" class="text1">
-    <button class="button">encode</button> 
-    <div class="decoders" id="decoder1"></div>
-    <div class="decoders" id="decoder2"></div>
-    <div class="decoders" id="decoder3"></div>
-
-
+<div class="container">
+    <h2>Secret Message App</h2>
+    <textarea placeholder="enter a text of atleast 50 characters" class="text1"></textarea>
+    <button class="button">encode</button>
+    <textarea id="decoder1" class="decoders"></textarea>
+    <textarea id="decoder2" class="decoders"></textarea>
+    <textarea id="decoder3" class="decoders"></textarea>
+</div>
     <script src="asserts/script/script.js"></script>
 </body>
 </html>
